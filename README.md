@@ -1,22 +1,42 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+  <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+  <br/>
+  <h1>✨ Ergili IDE</h1>
+  <p><strong>Tarayıcı tabanlı, modern ve yetenekli bir VSCode klonu.</strong></p>
 </div>
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+## 🚀 Proje Hakkında
 
-View your app in AI Studio: https://ai.studio/apps/2142442c-af41-40fd-b49e-7d501d91ede1
+**Ergili IDE**, tarayıcınız üzerinden hiçbir ek yazılım kurmadan kod yazmanıza, projelerinizi yönetmenize ve anında test etmenize olanak tanıyan web tabanlı bir kod editörüdür. Gerçek bir VSCode deneyimi sunmak üzere **Next.js**, **Tailwind CSS** ve **Monaco Editor** kullanılarak geliştirilmiştir.
 
-## Run Locally
+Yazdığınız kodlar, açtığınız sekmeler ve yapılandırma ayarlarınız tarayıcınızın `localStorage` belleğinde otomatik olarak senkronize edilir, böylece sayfayı yenileseniz bile veri kaybı yaşamazsınız.
 
-**Prerequisites:**  Node.js
+## 🌟 Öne Çıkan Özellikler
 
+*   📂 **Gelişmiş Gezgin:** Tüm klasörü içeri aktarma, yeni dosya oluşturma, yeniden adlandırma ve silme.
+*   📝 **Monaco Editor Entegrasyonu:** Sözdizimi vurgulama (Syntax highlighting), otomatik tamamlama ve minimap desteği.
+*   ⚡ **Anında Önizleme:** Yazdığınız HTML/CSS/JS kodlarını tek tıkla ("Projeyi Çalıştır") yeni sekmede canlı olarak derleyip test etme imkanı.
+*   💾 **ZIP Olarak İndirme:** Üzerinde çalıştığınız projeyi dilediğiniz zaman `.zip` formatında bilgisayarınıza indirebilme.
+*   💻 **Dahili Terminal:** Özelleştirilmiş komutları (`help`, `ls`, `clear`, `date`, `run` vb.) destekleyen mock terminal ekranı.
+*   ⚙️ **Kişiselleştirme:** VS-Dark/Light tema seçenekleri, font boyutu ayarlama, sözcük kaydırma (word wrap) ve minimap açıp kapatabilme.
+*   ☁️ **Bulut Senkronizasyonu:** Tarayıcı önbelleğine otomatik kayıt özelliği.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
-# Ergili-Ide
-# Ergili-Ide
+## 🛠️ Kullanılan Teknolojiler
+
+*   **[Next.js (App Router)](https://nextjs.org/)** - React Framework
+*   **[Tailwind CSS](https://tailwindcss.com/)** - Stil ve tasarım
+*   **[@monaco-editor/react](https://github.com/suren-atoyan/monaco-react)** - Güçlü kod editörü motoru
+*   **[JSZip](https://stuk.github.io/jszip/)** & **[FileSaver](https://github.com/eligrey/FileSaver.js/)** - Dosya paketleme ve indirme
+*   **[Lucide React](https://lucide.dev/)** - Modern ikon seti
+
+## 💻 Kurulum ve Çalıştırma
+
+Projeyi kendi bilgisayarınızda yerel olarak çalıştırmak için aşağıdaki adımları izleyebilirsiniz.
+
+**Gereksinimler:** [Node.js](https://nodejs.org/en) (v18 veya üzeri önerilir)
+
+1. **Bağımlılıkları yükleyin:**
+   ```bash
+   npm install
